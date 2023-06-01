@@ -138,27 +138,6 @@
 	}
 	%>
 	
-<%-- 	<div class="container">
-		<c:if test="${error eq null }">
-			<h3>회원등록 성공</h3>
-			<div class="alert alert-success">
-				<p>정상적으로 회원 등록 되었습니다. 확인 클릭하시면 로그인 페이지로 이동합니다.</p>
-				<div class="btn-area">
-					<button type="button"
-						onclick="location.href='${pageContext.request.contextPath}/login/login.jsp'">확인</button>
-				</div>
-			</div>
-		</c:if>
-		<c:if test="${error ne null }">
-			<h3>회원등록 실패</h3>
-			<div class="alert alert-success">
-				<p>회원등록에 실패하였습니다. 전산실에 문의부탁드립니다. 042-719-8850</p>
-				<div class="btn-area">
-					<button type="button" onclick="history.back();">뒤로가기</button>
-				</div>
-			</div>
-		</c:if>
-	</div> --%>
 	<div class="container">
 		<c:if test="${bne eq null && bde eq null && se eq null}">
 			<h3>회원등록 성공</h3>

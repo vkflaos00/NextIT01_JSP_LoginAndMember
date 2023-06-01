@@ -9,6 +9,7 @@
 <link rel="icon" type="image/x-icon" href="${pageContext.request.contextPath }/images/nextit_log.jpg" />
 <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath }/css/login.css">
 <script type="text/javascript">
+	
 	function fn_login(){
 		// alert("fn_login");
 		
