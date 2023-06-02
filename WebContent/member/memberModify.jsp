@@ -91,7 +91,7 @@
 		request.setAttribute("bne", bne);
 	}catch(Exception e){
 		e.printStackTrace();
-		request.setAttribute("se", e);
+		request.setAttribute("e", e);
 	}finally {
 		if(rs != null){try{rs.close();}catch(Exception e){e.printStackTrace();}}
 		if(pstmt != null){try{pstmt.close();}catch(Exception e){e.printStackTrace();}}
